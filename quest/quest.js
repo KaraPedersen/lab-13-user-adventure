@@ -23,7 +23,7 @@ const audio = document.getElementById('audio');
 const description = document.getElementById('description');
 const choiceForm = document.getElementById('choice-form');
 const choices = document.getElementById('choices');
-const result = document.getElementById('result');
+// const result = document.getElementById('result');
 const resultDescription = document.getElementById('result-description');
 
 title.textContent = quest.title;
@@ -39,7 +39,7 @@ for (let index = 0; index < quest.choice.length; index++) {
     choices.appendChild(choiceDom);
 }
 
-choiceForm.addEventListener('submit', function (event) {
+choiceForm.addEventListener('submit', function (event) { // eslint-disable-line
     event.preventDefault();
 
     const formData = new FormData(choiceForm);
