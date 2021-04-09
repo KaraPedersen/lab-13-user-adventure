@@ -1,4 +1,3 @@
-
 body {
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
     /* --color1: hsla(349, 69%, 76%, 1);
@@ -32,7 +31,8 @@ main {
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-   
+    font-family: 'Indie Flower', cursive;   
+    text-transform: uppercase;
     background-color: bisque;
 }
 
@@ -58,11 +58,11 @@ header {
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
-.welcome {
+.profile {
     font-family: 'Indie Flower', cursive;   
     text-transform: uppercase;
 }
-.start-here {
+/* .start-here {
     font-family: 'Indie Flower', cursive;   
     text-transform: uppercase;
     
@@ -81,5 +81,5 @@ header {
     align-items: flex-end;
     font-family: 'Indie Flower', cursive;   
     text-transform: uppercase;
-}
+} */
     
