@@ -21,7 +21,7 @@ body {
     font-family: 'Titillium Web', sans-serif;
     background-color: bisque;
 }
-.gutter-right {
+.opening h1 {
     font-family: 'Indie Flower', cursive;   
     text-transform: uppercase;
 }
@@ -58,7 +58,7 @@ header {
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
-.welcome {
+.welcome h2 {
     font-family: 'Indie Flower', cursive;   
     text-transform: uppercase;
 }
@@ -87,3 +87,8 @@ header {
     font-family: 'Indie Flower', cursive;   
     text-transform: uppercase;
 }
+.start-button button {
+    font-family: 'Indie Flower', cursive;   
+    text-transform: uppercase;
+}
+

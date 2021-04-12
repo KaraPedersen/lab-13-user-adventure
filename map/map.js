@@ -2,7 +2,7 @@ import { getUser } from '../data/api.js';
 import quests from '../data/quest-data.js';
 import loadProfile from '../common/load-profile.js';
 import createQuestLink from './create-quest-link.js';
-import createCompletedQuest from './create-completed-quest';
+import createCompletedQuest from './create-completed-quest.js';
 import hasCompletedAllQuests from './has-completed-all-quests.js';
 import isDead from '../common/is-dead.js';
 

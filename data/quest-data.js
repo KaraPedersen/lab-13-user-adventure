@@ -5,7 +5,7 @@ const monsters = {
         top: '89%',
         left: '44%',
     },
-    image: 'monsters.jpg',
+    image: 'monsters.jpeg',
     description: `
     You enter the quest chamber only to be confronted by a hoard of monsters.  And they look hungry. What do you do?`,
 
@@ -42,9 +42,9 @@ const dragon = {
         top: '17%',
         left: '37%',
     },
-    image: 'dragon.jpg',
-    audio: 'dragon.wav',
-    action: 'dragon-growl.aiff',
+    image: 'dragon.jpeg',
+    // audio: 'dragon.wav',
+    // action: 'dragon-growl.aiff',
     description: `
     You run to a nearby village you have heard is being terrorized by a dragon. Sure enough as you rent a room in a local inn, you go outside and see the dragon about to lay seige!  What do you do?`,
 

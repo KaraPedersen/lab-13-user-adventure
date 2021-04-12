@@ -1,4 +1,4 @@
-import { getuser } from '../data/api.js';
+import { getUser } from '../data/api.js';
 import isDead from './is-dead.js';
 
 function loadProfile() {

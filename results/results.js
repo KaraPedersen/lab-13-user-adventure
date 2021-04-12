@@ -12,7 +12,7 @@ const storyDisplay = document.getElementById('story-display');
 
 const hpResult = scoreHp(user.hp);
 const goldResult = scoreGold(user.gold);
-const hpMessage = hpMessages(hpResult);
+const hpText = hpMessages(hpResult);
 
 let goldMessages = null;
 if (hpResult === 'dead') {
@@ -26,6 +26,6 @@ const goldMessage = goldMessages[goldResult];
 
 let story = 'After your adventures, ';
 story += user.name + ' the ' + user.race + ', ';
-story += hpMessage + ' and ' + goldMessage + '.';
+story += hpText + ' and ' + goldMessage + '.';
 
 storyDisplay.textContent = story;
