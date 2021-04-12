@@ -19,7 +19,7 @@ if (!quest) {
 
 const title = document.getElementById('title');
 const image = document.getElementById('image');
-const audio = document.getElementById('audio');
+// const audio = document.getElementById('audio');
 const description = document.getElementById('description');
 const choiceForm = document.getElementById('choice-form');
 const choices = document.getElementById('choices');
@@ -28,7 +28,7 @@ const resultDescription = document.getElementById('result-description');
 
 title.textContent = quest.title;
 image.src = '../assets/quests/' + quest.image;
-audio.src = '../assets/quests/' + quest.audio;
+// audio.src = '../assets/quests/' + quest.audio;
 description.textContent = quest.description;
 
 for (let index = 0; index < quest.choices.length; index++) {
@@ -54,7 +54,7 @@ choiceForm.addEventListener('submit', function (event) {
 
     saveUser(user);
 
-    audio.src = '../assets/quests/' + quest.action;
+    // audio.src = '../assets/quests/' + quest.action;
     choiceForm.classList.add('hidden');
     result.classList.remove('hidden');
     resultDescription.textContent = choice.result;

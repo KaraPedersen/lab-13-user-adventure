@@ -84,8 +84,8 @@ const treasure = {
     },
     prerequisites: ['dragon', 'monsters'],
     image: 'treasure-chests.png',
-    audio: 'treasure-chests.wav',
-    action: 'chest-opening.wav',
+    // audio: 'treasure-chests.wav',
+    // action: 'chest-opening.wav',
     description: `
     As you enter the quest chamber you notice three chests before you.  Just as you start to imagine the wealth, you see a giant serpent emerge from the back of the chamber.  You'll need to make a run for it, but you have time to open one chest before you take off.  Which one do you choose?`,
 
