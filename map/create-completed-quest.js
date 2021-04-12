@@ -6,7 +6,7 @@ function createCompletedQuest(quest) {
     span.style.top = quest.map.top;
     span.style.left = quest.map.left;
 
-    span.textContent = quest.titel;
+    span.textContent = quest.title;
     return span;
 }
 

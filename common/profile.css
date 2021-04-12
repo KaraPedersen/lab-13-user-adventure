@@ -1,0 +1,13 @@
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile * {
+    margin-right: 5px;
+}
+
+.profile-stat-label {
+    text-transform: uppercase;
+}

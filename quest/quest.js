@@ -23,7 +23,7 @@ const audio = document.getElementById('audio');
 const description = document.getElementById('description');
 const choiceForm = document.getElementById('choice-form');
 const choices = document.getElementById('choices');
-// const result = document.getElementById('result');
+const result = document.getElementById('result');
 const resultDescription = document.getElementById('result-description');
 
 title.textContent = quest.title;
@@ -31,7 +31,7 @@ image.src = '../assets/quests/' + quest.image;
 audio.src = '../assets/quests/' + quest.audio;
 description.textContent = quest.description;
 
-for (let index = 0; index < quest.choice.length; index++) {
+for (let index = 0; index < quest.choices.length; index++) {
     const choice = quest.choices[index];
 
     const choiceDom = createChoice(choice);
@@ -39,7 +39,7 @@ for (let index = 0; index < quest.choice.length; index++) {
     choices.appendChild(choiceDom);
 }
 
-choiceForm.addEventListener('submit', function (event) { // eslint-disable-line
+choiceForm.addEventListener('submit', function (event) {
     event.preventDefault();
 
     const formData = new FormData(choiceForm);
@@ -56,7 +56,7 @@ choiceForm.addEventListener('submit', function (event) { // eslint-disable-line
 
     audio.src = '../assets/quests/' + quest.action;
     choiceForm.classList.add('hidden');
-    resultDescription.classList.remove('hidden');
+    result.classList.remove('hidden');
     resultDescription.textContent = choice.result;
 
     loadProfile();

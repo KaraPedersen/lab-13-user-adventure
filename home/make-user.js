@@ -10,7 +10,7 @@ function makeUser(formData) {
     return user;
 }
 
-export const newMakerUser = (formData) => ({
+export const newMakeUser = (formData) => ({
     name: formData.get('name'),
     race: formData.get('race'),
     hp: 35,

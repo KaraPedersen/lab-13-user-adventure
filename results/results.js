@@ -1,6 +1,6 @@
 import loadProfile from '../common/load-profile.js';
 import { getUser } from '../data/api.js';
-import scoreHp from './score-gold.js';
+import scoreHp from './score-hp.js';
 import scoreGold from './score-gold.js';
 import { hpMessages, aliveGoldMessages, deadGoldMessages } from './messages.js';
 
