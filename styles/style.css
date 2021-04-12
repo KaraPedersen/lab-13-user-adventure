@@ -14,12 +14,12 @@ body {
     --color5: hsla(224, 40%, 79%, 1); */
     
     --header-height: 80px;
-    --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
+    --shadow: 0px 10px 20px -12px whitesmoke;
     --gutter: 30px;
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: bisque;
+    background-color: teal;
 }
 .opening h1 {
     font-family: 'Indie Flower', cursive;   
@@ -32,12 +32,12 @@ main {
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-   
-    background-color: bisque;
+   background-image: url(../assets/castle.jpeg);
+    background-color: teal;
 }
 
 section {
-    background-color: bisque;
+    background-color:teal;
     width: 1000px;
     max-width: 80%;
     display: flex;
@@ -54,7 +54,7 @@ section {
 header {
     display: flex;
     justify-content: flex-end;
-    background-color: bisque;
+    background-color:teal;
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
@@ -90,5 +90,7 @@ header {
 .start-button button {
     font-family: 'Indie Flower', cursive;   
     text-transform: uppercase;
+    background-color: violet;
+
 }
 

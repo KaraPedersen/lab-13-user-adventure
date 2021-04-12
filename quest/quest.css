@@ -15,12 +15,12 @@ main {
 }
 
 #result {
-    background:  #e38548;
+    background: palevioletred;
     padding: 20px;
 }
 
 #result-description {
-    background:  #e38548;
+    background:  palevioletred;
     font-weight: bolder;
 }
 
